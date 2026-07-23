@@ -1,0 +1,32 @@
+# ── Core Framework ────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy
+pydantic
+pydantic-settings
+email-validator
+
+# ── Authentication ────────────────────────────────────────────────────────────
+python-jose[cryptography]
+passlib[bcrypt]
+
+# ── File Uploads ──────────────────────────────────────────────────────────────
+python-multipart
+
+# ── OCR (Image text extraction) ───────────────────────────────────────────────
+pytesseract
+Pillow
+
+# ── PDF (Text extraction from uploaded PDFs) ──────────────────────────────────
+PyMuPDF
+
+# ── PDF Generation (Complaint reports) ───────────────────────────────────────
+reportlab
+
+# ── AI / ML (Department classification) ──────────────────────────────────────
+scikit-learn
+
+# ── Static Files ──────────────────────────────────────────────────────────────
+aiofiles
